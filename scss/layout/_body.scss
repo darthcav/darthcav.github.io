@@ -2,8 +2,8 @@ body {
     font-size: $base-font;
     font-weight: $base-font-weight;
     font-style: normal;
-    font-family: "open+sans", arial, sans-serif;
-    padding-top: $top-banner-height * 2/3;
+    font-family: "Open Sans", arial, sans-serif;
+    padding-top: round($top-banner-height * 2/3);
     @media screen and (min-width: $screen-sm) {
         padding-top: $top-banner-height;
     }
@@ -28,7 +28,7 @@ pre, code, kbd {
     font-size: $base-font;
     font-weight: $base-font-weight;
     font-style: normal;
-    font-family: "source+code+pro", monospace;
+    font-family: "Source Code Pro", monospace;
 }
 
 address {
