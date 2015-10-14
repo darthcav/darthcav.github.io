@@ -1,0 +1,38 @@
+body {
+    font-size: $base-font;
+    font-weight: $base-font-weight;
+    font-style: normal;
+    font-family: "open+sans", arial, sans-serif;
+    padding-top: $top-banner-height * 2/3;
+    @media screen and (min-width: $screen-sm) {
+        padding-top: $top-banner-height;
+    }
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: $base-font-weight;
+    font-style: normal;
+    background: transparent;
+    color: $darker-blue;
+}
+
+pre, code, kbd {
+    font-size: $base-font;
+    font-weight: $base-font-weight;
+    font-style: normal;
+    font-family: "source+code+pro", monospace;
+}
+
+address {
+    text-align: center;
+    font-style: italic;
+    padding: 0.5rem;
+}
