@@ -1,8 +1,5 @@
 /* ===== import Bootstrap ===== */
 @import url("https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css");
 
-/* ===== import Font Awesome ===== */
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
-
 /* ===== import theme ===== */
 @import url("./theme.css");
