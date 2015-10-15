@@ -6,6 +6,7 @@ body {
     padding-top: round($top-banner-height * 2/3);
     @media screen and (min-width: $screen-sm) {
         padding-top: $top-banner-height;
+        min-height: 60rem;
     }
 }
 

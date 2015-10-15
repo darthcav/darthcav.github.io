@@ -14,9 +14,10 @@ body {
   font-style: normal;
   font-family: "Open Sans", arial, sans-serif;
   padding-top: 77px; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 48rem) {
     body {
-      padding-top: 115px; } }
+      padding-top: 115px;
+      min-height: 60rem; } }
 
 h1 {
   font-size: 2rem; }
@@ -41,8 +42,19 @@ address {
   font-style: italic;
   padding: 0.5rem; }
 
+@media screen and (max-width: 30rem) {
+  .navbar-nav .nav-item {
+    float: right; }
+
+  .nav-item {
+    width: 100%;
+    margin: 0;
+    text-align: right; } }
 footer {
   background-color: #082136;
   color: #fff;
   margin-top: 1rem;
   padding: 1rem 0; }
+
+.container {
+  max-width: 60rem; }

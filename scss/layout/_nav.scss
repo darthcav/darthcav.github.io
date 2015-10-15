@@ -1,0 +1,10 @@
+@media screen and (max-width: $screen-xs) {
+    .navbar-nav .nav-item {
+        float: right;
+    }
+    .nav-item {
+        width: 100%;
+        margin: 0;
+        text-align: right;
+    }
+}
