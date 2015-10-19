@@ -10,41 +10,55 @@
 </head>
 <body>
     <div class="container-fluid">
-        <nav class="navbar navbar-dark navbar-fixed-top bg-inverse">
-            <span class="navbar-brand">Darth CAV</span>
+        <nav class="navbar navbar-dark navbar-fixed-top">
+            <span class="navbar-brand"><span class="hidden-sm-up">Darth CAV</span></span>
             <button class="navbar-toggler pull-right hidden-sm-up" type="button"
                     data-toggle="collapse" data-target="#cnavbar">
                 &#9776;
             </button>
-            <div class="collapse navbar-toggleable-xs container" id="cnavbar">
+            <div class="container collapse navbar-toggleable-xs" id="cnavbar">
                 <ul class="nav navbar-nav nav-pills">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Home<span class="sr-only"> (current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#">Publications</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
-
     <div class="container">
-        <div>
-            <h1>Hello, world!</h1>
-            <p>First primitive layout.</p>
+        <div class="row">
+            <main class="col-xs-12 col-md-8" role="main">
+                <article>
+                    <h1>Hello, world!</h1>
+                    <p>Minions ipsum poulet tikka masala underweaaar poulet tikka masala underweaaar. Chasy underweaaar underweaaar tulaliloo bappleees butt jeje. Tatata bala tu pepete tatata bala tu hahaha. Tulaliloo hahaha bananaaaa hahaha underweaaar la bodaaa la bodaaa po kass. Baboiii potatoooo hana dul sae bee do bee do bee do aaaaaah. Hahaha uuuhhh gelatooo pepete poopayee.</p>
+                    <p>Tatata bala tu poulet tikka masala poopayee belloo! Poulet tikka masala. Po kass hahaha potatoooo aaaaaah belloo! Underweaaar ti aamoo! Tank yuuu! Jeje uuuhhh daa pepete. Daa jeje po kass poulet tikka masala. Baboiii hana dul sae hana dul sae me want bananaaa! Baboiii bananaaaa. Tatata bala tu tulaliloo belloo! Bananaaaa pepete baboiii bananaaaa poopayee chasy poopayee. Bee do bee do bee do gelatooo tulaliloo ti aamoo! La bodaaa bee do bee do bee do jeje tatata bala tu. Po kass wiiiii tatata bala tu butt tatata bala tu gelatooo ti aamoo! Wiiiii me want bananaaa! Hana dul sae aaaaaah.</p>
+                </article>
+            </main>
+            <aside class="col-xs-12 col-md-4 hidden-sm-down" role="complementary">
+                <section>
+                    <h2><img src="./images/darthcav.png" alt="Twitter feed"></h2>
+                    <div>
+                    <a class="twitter-timeline" href="https://twitter.com/darthcav"
+                       data-widget-id="655771876543897600"
+                       data-tweet-limit="3" data-chrome="noheader nofooter noborders"
+                       data-aria-polite="polite">Tweets by @darthcav</a>
+                    </div>
+                </section>
+            </aside>
         </div>
     </div>
-
     <footer class="container-fluid" role="contentinfo">
         <address>
             © 2015 DARTH CAV
         </address>
     </footer>
-
+    <script src="https://darthcav.github.io/scripts/twitter.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
 </body>

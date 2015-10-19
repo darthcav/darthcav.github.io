@@ -3,11 +3,6 @@ body {
     font-weight: $base-font-weight;
     font-style: normal;
     font-family: "Open Sans", arial, sans-serif;
-    padding-top: round($top-banner-height * 2/3);
-    @media screen and (min-width: $screen-sm) {
-        padding-top: $top-banner-height;
-        min-height: 60rem;
-    }
 }
 
 h1 {

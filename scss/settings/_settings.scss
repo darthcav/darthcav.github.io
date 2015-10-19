@@ -12,10 +12,11 @@ $base-font: 16px;
 $base-font-weight: 400;
 
 // Screen-sizes
-$screen-xs: 30rem; // 480px
-$screen-sm: 48rem; // 768px
-$screen-md: 60rem; // 960px
-$screen-lg: 64rem; // 1024px
+$screen-xs: 544px;
+$screen-sm: 544px;
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1200px;
 
 // Colors. Thema: Corporate Blues
 // URL: http://adobe.ly/1AcUKv7
@@ -25,5 +26,6 @@ $blue: #004B8D;
 $lighter-blue: #0068C4;
 $lightest-blue: #2998FF;
 
-// Fixed top nav height
-$top-banner-height: 115px;
+// Fixed top nav
+$top-nav-height: 60px;
+$top-nav-background: #151515;

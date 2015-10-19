@@ -1,4 +1,4 @@
-@media screen and (max-width: $screen-xs) {
+@media (max-width: ($screen-sm - 1)) {
     .navbar-nav .nav-item {
         float: right;
     }
@@ -6,5 +6,16 @@
         width: 100%;
         margin: 0;
         text-align: right;
+    }
+}
+
+nav {
+    background-color: $top-nav-background;
+    @media (min-width: $screen-sm) {
+        max-height: $top-nav-height;
+    }
+    button {
+        color: #fff;
+        background: transparent;
     }
 }
