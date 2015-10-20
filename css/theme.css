@@ -59,6 +59,16 @@ footer {
   color: #fff;
   margin-top: 1rem;
   padding: 1rem 0; }
+  footer a {
+    width: 2rem;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: transparent; }
+    footer a span.fa {
+      width: 2rem; }
+  footer a:hover, footer a:focus {
+    color: #ff0;
+    background-color: transparent; }
 
 @media (max-width: 544px) {
   body > div.container {

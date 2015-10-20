@@ -3,4 +3,17 @@ footer {
     color: #fff;
     margin-top: 1rem;
     padding: 1rem 0;
+    a {
+        width: 2rem;
+        font-size: 1.5rem;
+        color: #fff;
+        background-color: transparent;
+        span.fa {
+            width: 2rem;
+        }
+    }
+    a:hover, a:focus {
+        color: #ff0;
+        background-color: transparent;
+    }
 }
