@@ -7,11 +7,7 @@ body > div.container {
         min-height: 18rem;
     }
     @media (min-width: $screen-md) {
-        max-width: $screen-md;
         margin-top: round(1.6 * $top-nav-height);
-        //margin-left: max(170, auto);
         min-height: 24rem;
-        //padding-left: 170px;
-        //padding-right: 170px;
     }
 }

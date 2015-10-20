@@ -79,6 +79,5 @@ footer {
     min-height: 18rem; } }
 @media (min-width: 768px) {
   body > div.container {
-    max-width: 768px;
     margin-top: 96px;
     min-height: 24rem; } }
