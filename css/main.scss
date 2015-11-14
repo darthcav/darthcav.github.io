@@ -1,0 +1,21 @@
+---
+# main sass file
+---
+/* ===== import Bootstrap ===== */
+@import url("https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css");
+
+/* ===== import theme settings: partials from `sass_dir` (defaults to `_sass`) ===== */
+
+// Settings
+@import "settings/fonts";
+@import "settings/settings";
+
+// Layout
+@import "layout/body";
+@import "layout/nav";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/custom";
+
+// Highlighting
+@import "syntax-highlighting";
