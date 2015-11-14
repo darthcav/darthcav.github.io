@@ -1,0 +1,33 @@
+##### Site settings
+title: Darth CAV's Home Page
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+copyright: "© 2015 DARTH CAV"
+url: "https://darthcav.github.io/" # the base hostname & protocol for your site
+
+##### GitHub configuration
+highlighter: pygments
+markdown: redcarpet # better than "kramdown"
+repository: darthcav/darthcav.github.io
+gems:
+  - jekyll-feed
+  - jekyll-github-metadata
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jemoji
+redcarpet:
+  extensions: []
+
+##### Twitter configuration
+twitter:
+  user: darthcav
+  url: https://twitter.com/darthcav
+
+##### Scripts configuration
+scripts:
+  bootstrap: https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js
+  jquery: https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
+  twitter: https://darthcav.github.io/scripts/twitter.js

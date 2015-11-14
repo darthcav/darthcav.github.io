@@ -1,96 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Darth CAV's Home Page</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link href="https://darthcav.github.io/images/favicon.ico" type="image/x-icon" rel="shortcut icon">
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-dark navbar-fixed-top">
-            <span class="navbar-brand"><span class="hidden-sm-up">Darth CAV</span></span>
-            <button class="navbar-toggler pull-right hidden-sm-up" type="button"
-                    data-toggle="collapse" data-target="#cnavbar">
-                &#9776;
-            </button>
-            <div class="container collapse navbar-toggleable-xs" id="cnavbar">
-                <ul class="nav navbar-nav nav-pills">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./content/projects/index.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./content/pubs/index.html">Publications</a>
-                    </li>
-                </ul>
+---
+layout: default
+title: Darth CAV's Home Page
+permalink: /index.html
+---
+
+<article>
+    <h1>Welcome to Darth CAV's Home Page!</h1>
+
+    <p>This is a small dedicated web presence to my open source projects and scientific
+        publications. Some of them are no longer maintained, but I decided to put them on
+        <a href="https://github.com/darthcav">GitHub</a> for future reference.</p>
+
+    <h2>My technology stack</h2>
+
+    <p>The technology stack that keeps me busy at the moment is concentrated on:</p>
+    <ul class="media-list">
+        <li class="media">
+            <div class="media-left">
+                <img class="media-object" src="./images/js-black.svg" width="150"
+                     alt="Node.js logo">
             </div>
-        </nav>
-    </div>
-    <div class="container">
-        <div class="row">
-            <main class="col-xs-12 col-md-8" role="main">
-                <article>
-                    <h1>Welcome to Darth CAV's Home Page!</h1>
-                    <p>This is a small dedicated web presence to my open source projects and
-                        scientific publications. Some of them are no longer maintained,
-                        but I decided to put them on <a href="https://github.com/darthcav">GitHub</a>
-                        for future reference.</p>
-                    <h2>My technology stack</h2>
-                    <p>The technology stack that keeps me busy at the moment is concentrated on:</p>
-                    <ul class="media-list">
-                        <li class="media">
-                            <div class="media-left">
-                                <img class="media-object" src="./images/js-black.svg" width="150" alt="Node.js logo">
-                            </div>
-                            <div class="media-body">
-                                <h3 class="media-heading">Node.js®</h3>
-                                <p>Node.js® is a leading edge JavaScript platform to build lightweight
-                                    and event-driven distributed server-side applications. It is built
-                                    on top of the <a href="https://developers.google.com/v8/">V8
-                                        JavaScript engine</a> used by web browsers like Google Chrome.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="media">
-                            <div class="media-left">
-                                <img class="media-object" src="./images/HTML5_Badge.svg" width="150" alt="HTML5 logo">
-                            </div>
-                            <div class="media-body">
-                                <h3 class="media-heading">HTML5</h3>
-                                <p>HTML 5 is the platform to build modern web applications. It goes beyond the pure markup, and includes a series of APIS that enable the development of mobile and desktop web applications.
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </article>
-            </main>
-            <aside class="col-xs-12 col-md-4 hidden-sm-down" role="complementary">
-                <section class="text-center">
-                    <h2><img src="https://darthcav.github.io/images/darthcav.png" alt="Twitter feed"></h2>
-                    <div>
-                    <a class="twitter-timeline" href="https://twitter.com/darthcav"
-                       data-widget-id="655771876543897600"
-                       data-tweet-limit="1" data-chrome="noheader nofooter noborders"
-                       data-aria-polite="polite">Tweets by @darthcav</a>
-                    </div>
-                </section>
-            </aside>
-        </div>
-    </div>
-    <footer class="container-fluid" role="contentinfo">
-        <address>
-            © 2015 DARTH CAV &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a href="https://github.com/darthcav"><span class="fa fa-github" aria-hidden="true" title="GitHub Darth CAV home page"></span><span class="sr-only">GitHub Darth CAV home page</span></a>
-            <a href="https://twitter.com/darthcav"><span class="fa fa-twitter" aria-hidden="true" title="Twitter Darth CAV home page"></span><span class="sr-only">Twitter Darth CAV home page</span></a>
-        </address>
-    </footer>
-    <script src="https://darthcav.github.io/scripts/twitter.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
-</body>
-</html>
+            <div class="media-body">
+                <h3 class="media-heading">Node.js®</h3>
+
+                <p>Node.js® is a leading edge JavaScript platform to build lightweight and
+                    event-driven distributed server-side applications. It is built on top
+                    of the <a href="https://developers.google.com/v8/">V8 JavaScript
+                        engine</a> used by web browsers like Google Chrome.
+                </p>
+            </div>
+        </li>
+        <li class="media">
+            <div class="media-left">
+                <img class="media-object" src="./images/HTML5_Badge.svg" width="150"
+                     alt="HTML5 logo">
+            </div>
+            <div class="media-body">
+                <h3 class="media-heading">HTML5</h3>
+
+                <p>HTML 5 is the platform to build modern web applications. It goes beyond
+                    the pure markup, and includes a series of APIS that enable the
+                    development of mobile and desktop web applications.
+                </p>
+            </div>
+        </li>
+    </ul>
+
+    <h2>My repositories</h2>
+
+    <ul>
+        {% for repository in site.github.public_repositories %}
+        <li><a href="{{ repository.html_url }}">{{ repository.name }}</a>:
+            {{ repository.description }}</li>
+        {% endfor %}
+    </ul>
+
+</article>
