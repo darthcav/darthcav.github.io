@@ -1,20 +1,30 @@
 ##### Site settings
 title: Darth CAV's Home Page
 description: > # Darth CAV's web site.
-copyright: "© 2015 DARTH CAV"
+copyright: © 2015 DARTH CAV
 # url: # base url of your site, default: {{ site.github.url }}
+author:
+  name: Darth CAV
 
 ##### GitHub configuration
-highlighter: pygments
+highlighter: rouge # pygments or rouge
 markdown: redcarpet # better than "kramdown"
 repository: darthcav/darthcav.github.io
 gems:
   - jekyll-feed
   - jekyll-github-metadata
   - jekyll-mentions
+  - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-sitemap
   - jemoji
+  - rouge
+paginate: 10
+permalink: /blog/:year/:month/:day/:title
+
+##### RedCarpet configuration
+redcarpet:
+  extensions: [ "smart" ]
 
 ##### Twitter configuration
 twitter:

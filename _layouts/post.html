@@ -2,18 +2,20 @@
 layout: blog
 ---
 
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<article itemscope itemtype="http://schema.org/BlogPosting">
 
-    <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    <header class="jumbotron card">
+        <h1 class="card-title" itemprop="name headline">{{ page.title }}</h1>
 
-        <p class="post-meta">
+        <p class="card-text">
+            {% if site.author %}
+                <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                    &#x2014; By {{ site.author.name }} |
+                </span>
+            {% endif %}
             <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                {{ page.date | date: "%b %-d, %Y" }}
+                {{ page.date | date_to_rfc822 }}
             </time>
-            {% if page.author %} • <span itemprop="author" itemscope
-                                         itemtype="http://schema.org/Person"><span
-            itemprop="name">{{ page.author }}</span></span>{% endif %}
         </p>
     </header>
 

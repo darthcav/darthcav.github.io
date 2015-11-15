@@ -48,9 +48,9 @@ permalink: /index.html
 
     <h2>My repositories</h2>
 
-    <ul>
+    <ul class="list-group">
         {% for repository in site.github.public_repositories %}
-        <li><a href="{{ repository.html_url }}">{{ repository.name }}</a>:
+        <li class="list-group-item"><a href="{{ repository.html_url }}">{{ repository.name }}</a>:
             {{ repository.description }}</li>
         {% endfor %}
     </ul>

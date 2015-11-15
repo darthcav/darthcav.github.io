@@ -6,20 +6,29 @@ permalink: /blog.html
 
 <article>
 
-    <h1>Darth CAV's Blog</h1>
+    <div class="jumbotron">
+        <h1>Darth CAV's Blog</h1>
 
-    <ul class="post-list">
+        <p>This is just a set of disconnected and sometimes incoherent ramblings about
+            many things, but mainly software development, especially related to Web
+            technologies and tools to improve the quality of web applications.</p>
+
+        <p><a role="button" class="btn btn-primary btn-lg btn-block"
+              href="{{ '/feed.xml' | prepend: site.url }}">Subscribe to my blog via RSS</a></p>
+    </div>
+
+    <h2>Posts</h2>
+
+    <ul class="list-group">
         {% for post in site.posts %}
-        <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-            <h2>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h2>
+        <li class="list-group-item card card-block">
+            <h3 class="card-title">
+                <a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
+            </h3>
+            <p class="card-text">{{ post.excerpt }}</p>
+            <p class="card-text">{{ post.date | date: "%b %-d, %Y" }}</p>
         </li>
         {% endfor %}
     </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</article></p>
 
 </article>

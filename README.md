@@ -10,6 +10,7 @@ Darth CAV home page repository
   - jekyll-github-metadata
   - netrc
   - redcarpet
+  - rouge
 - After installation `gem update` these packages:
   - jemoji
   - jekyll-mentions
