@@ -19,8 +19,21 @@ layout: blog
         </p>
     </header>
 
-    <div class="post-content" itemprop="articleBody">
+    <div itemprop="articleBody">
         {{ content }}
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Tags</h3>
+        </div>
+        <div class="card-block">
+            <p class="card-text">
+                {% for tag in page.tags %}
+                    {{ tag }}&nbsp;|&nbsp;
+                {% endfor %}
+            </p>
+        </div>
     </div>
 
 </article>

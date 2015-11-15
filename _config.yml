@@ -3,6 +3,7 @@ title: Darth CAV's Home Page
 description: > # Darth CAV's web site.
 copyright: © 2015 DARTH CAV
 # url: # base url of your site, default: {{ site.github.url }}
+exclude: [ "README.md", "LICENSE", "images", "scripts" ]
 author:
   name: Darth CAV
 

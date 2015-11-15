@@ -22,11 +22,15 @@ h1, h2, h3, h4, h5, h6 {
     color: $darker-blue;
 }
 
-pre, code, kbd {
+pre, code, kbd, var {
     font-size: $base-font;
     font-weight: $base-font-weight;
     font-style: normal;
     font-family: "Source Code Pro", monospace;
+}
+
+pre {
+    padding: 1em 2em 1em 2em;
 }
 
 address {
