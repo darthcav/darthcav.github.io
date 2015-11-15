@@ -7,8 +7,8 @@ author:
   name: Darth CAV
 
 ##### GitHub configuration
-highlighter: rouge # pygments or rouge
 markdown: redcarpet # better than "kramdown"
+highlighter: pygments # pygments or (unsupported in GitHub) rouge
 repository: darthcav/darthcav.github.io
 gems:
   - jekyll-feed
