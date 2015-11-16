@@ -18,7 +18,7 @@ Like the famous blog post from Tom Preston-Werner [``Blogging Like a Hacker''](h
 
 The second issue arises through the use of the different Jekyll plug-ins, which may or may not be compatible with GitHub Pages. For the moment, apart from the standard packages installed by Jekyll, these are the list of plug-ins that I am using:
 
-- `github-pages`: obvious!
+- `github-pages`: obviously!
 - `jekyll-github-metadata`: to access the metadata of my GitHub repositories
 - `netrc`: to use a `$HOME/.netrc` file for authentication with the GitHub API
 - `redcarpet`: as a markup parser
