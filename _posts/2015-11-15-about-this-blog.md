@@ -49,7 +49,7 @@ I personally did not like most of the available themes for the blogs. Thus I dec
 
 To debug any issue, just start Jekyll in verbose mode:
 
-~~~console
+~~~bash
 $ jekyll serve --verbose
 ~~~
 
