@@ -22,7 +22,7 @@ gems:
   - jemoji
   - rouge
 paginate: 10
-permalink: /blog/:year/:month/:day/:title
+permalink: /blog/:year/:month/:day/:title.html
 
 ##### RedCarpet configuration
 redcarpet:
