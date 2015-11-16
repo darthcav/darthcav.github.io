@@ -6,6 +6,7 @@ tags:
  - blogging
  - jekyll
  - github
+ - bootstrap
  - responsive design
 ---
 
@@ -22,10 +23,6 @@ The second issue arises through the use of the different Jekyll plug-ins, which 
 - `netrc`: to use a `$HOME/.netrc` file for authentication with the GitHub API
 - `redcarpet`: as a markup parser
 
-<div class="alert alert-warning" role="alert">
-  <strong>Warning:</strong> many blogs and discussions in <a href="https://stackoverflow.com/">Stack Overflow</a> recommend to use <code>rouge</code> as a syntax highlighter. Just ignore them, it is not supported by GitHub. Stick to the traditional <code>pygments.rb</code>.
-</div>
-
 After installation `gem update` these packages:
 
 - `jemoji`
@@ -34,14 +31,26 @@ After installation `gem update` these packages:
 
 This is necessary to solve some versions incompatibility.
 
-## Themes and Responsive Design
+## Code highlighting
 
+<div class="alert alert-warning" role="alert">
+  <strong>Warning:</strong> many blogs and discussions in <a href="https://stackoverflow.com/">Stack Overflow</a> recommend to use <code>rouge</code> as a syntax highlighter. Just ignore them, it is not supported by GitHub. Stick to the traditional <code>pygments.rb</code>.
+</div>
 
+GitHub uses [Linguist](https://github.com/github/linguist) to create its syntax highlighting. You can find out which keywords are valid in this [YAML file](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml).
+
+Using the standard code delimiters, your code snippets will be surrounded with a `<div>` element with the class `highlight`, plus many other changes. I took the  default CSS available at [https://github.com/richleland/pygments-css](https://github.com/richleland/pygments-css) and customized some components.
+
+## Themes and responsive design
+
+I personally did not like most of the available themes for the blogs. Thus I decided to modify the standard templates and created one based upon [Bootstrap](http://getbootstrap.com/). In particular I am testing in this blog the new features released in the [alpha (at the moment of writing) version 4](http://v4-alpha.getbootstrap.com/).
 
 ## Debug
 
 To debug any issue, just start Jekyll in verbose mode:
 
-~~~bash
+~~~console
 $ jekyll serve --verbose
 ~~~
+
+And that's all for the moment!
