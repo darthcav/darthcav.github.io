@@ -2,7 +2,7 @@
 title: Darth CAV's Home Page
 description: > # Darth CAV's web site.
 copyright: © 2015 DARTH CAV
-url: https://darthcav.github.io # base url of your site, default: {{ site.github.url }}
+# url: https://darthcav.github.io # base url of your site, default: {{ site.github.url }}
 exclude: [ "README.md", "LICENSE" ]
 timezone: Europe/Berlin
 author:
@@ -37,4 +37,5 @@ twitter:
 scripts:
   bootstrap: https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js
   jquery: https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
+  ga: https://darthcav.github.io/scripts/ga.js
   twitter: https://darthcav.github.io/scripts/twitter.js
