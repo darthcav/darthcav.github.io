@@ -36,6 +36,6 @@ twitter:
 ##### Scripts configuration
 scripts:
   bootstrap: https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js
-  jquery: https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
   ga: https://darthcav.github.io/scripts/ga.js
+  jquery: https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
   twitter: https://darthcav.github.io/scripts/twitter.js
