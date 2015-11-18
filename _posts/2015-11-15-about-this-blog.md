@@ -14,7 +14,7 @@ I decided over the weekend to start with some kind of blogging experience using 
 
 ## The Basics
 
-Like the famous blog post from Tom Preston-Werner [``Blogging Like a Hacker''](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html), I did not want to use one of those stupid PHP engines and I did want to get full control of the layout and the styles. Bearing in mind the hosting issue mentioned earlier, I had no other choice but to select [Jekyll](http://jekyllrb.com/).
+Like the famous blog post from Tom Preston-Werner [``Blogging Like a Hacker''](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html), I did not want to use one of those terrible (security-wise) PHP engines and I did want to get full control of the layout and the styles. Bearing in mind the hosting issue mentioned earlier, I had no other choice but to select [Jekyll](http://jekyllrb.com/).
 
 The second issue arises through the use of the different Jekyll plug-ins, which may or may not be compatible with GitHub Pages. For the moment, apart from the standard packages installed by Jekyll, these are the list of plug-ins that I am using:
 
