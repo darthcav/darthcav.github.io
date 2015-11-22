@@ -9,8 +9,8 @@ author:
   name: Darth CAV
 
 ##### GitHub configuration
-markdown: redcarpet # better than "kramdown"
-highlighter: pygments # pygments or (unsupported in GitHub) rouge
+markdown: redcarpet # redcarpet | kramdown
+highlighter: pygments # pygments | (unsupported in GitHub) rouge
 repository: darthcav/darthcav.github.io
 gems:
   - jekyll-feed
@@ -23,6 +23,10 @@ gems:
   - rouge
 paginate: 10
 permalink: /blog/:year/:month/:day/:title.html
+
+##### Kramdown configuration
+# kramdown:
+#   input: GFM
 
 ##### RedCarpet configuration
 redcarpet:
@@ -39,3 +43,4 @@ scripts:
   ga: https://darthcav.github.io/scripts/ga.js
   jquery: https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
   twitter: https://darthcav.github.io/scripts/twitter.js
+  customize-md: https://darthcav.github.io/scripts/customize-md.js

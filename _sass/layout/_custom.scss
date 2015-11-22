@@ -11,3 +11,16 @@ body > div.container {
         min-height: 24rem;
     }
 }
+
+.blockquote {
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    p {
+        font-style: italic;
+    }
+}
+
+.list-group-item {
+    margin-bottom: 0.25rem;
+}
