@@ -17,7 +17,7 @@ Just reviewing the **npm** documentation, you stumble first on the [`npm-cache`]
 $ npm cache clean
 ~~~
 
-But that just cleans up the user cache directory, which by default is located at `$HOME/.npm` on POSIX-oriented operating systems, or at `%AppData%/npm-cache` on Windows systems. There are a bunch of temporary files stored by default in directories at:
+should work. But that just cleans up the user cache directory, which by default is located at `$HOME/.npm` on POSIX-oriented operating systems, or at `%AppData%/npm-cache` on Windows systems. There are a bunch of temporary files stored by default in directories at:
 
 + `$TMPDIR/npm-*` on POSIX-oriented operating systems, or
 + `%TMP%\npm-*` (`%TEMP%\npm-*`) on Windows systems.
