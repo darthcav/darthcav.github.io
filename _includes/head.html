@@ -8,4 +8,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <link rel="alternate" href="/feed.xml" type="application/rss+xml"
           title="{{ site.title }}">
+    {% if page.math %}
+    <script type="application/javascript" src="{{ site.scripts.mathjax }}"></script>
+    {% endif %}
 </head>

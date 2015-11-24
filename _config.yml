@@ -42,5 +42,6 @@ scripts:
   bootstrap: https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js
   ga: https://darthcav.github.io/scripts/ga.js
   jquery: https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
+  mathjax: https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
   twitter: https://darthcav.github.io/scripts/twitter.js
   customize-md: https://darthcav.github.io/scripts/customize-md.js
