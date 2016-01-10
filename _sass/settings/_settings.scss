@@ -1,22 +1,12 @@
-// Resets
-.reset-settings {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    background: transparent;
-    color: inherit;
-}
-
 // Base font
 $base-font: 16px;
 $base-font-weight: 400;
 
 // Screen-sizes
-$screen-xs: 544px;
-$screen-sm: 544px;
-$screen-md: 768px;
-$screen-lg: 992px;
-$screen-xl: 1200px;
+$screen-sm:  544px; /* 34em */
+$screen-md:  768px; /* 48em */
+$screen-lg:  992px; /* 62em */
+$screen-xl: 1200px; /* 75em */
 
 // Colors. Thema: Corporate Blues
 // URL: http://adobe.ly/1AcUKv7
@@ -28,4 +18,3 @@ $lightest-blue: #2998FF;
 
 // Fixed top nav
 $top-nav-height: 60px;
-$top-nav-background: #151515;

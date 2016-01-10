@@ -1,26 +1,23 @@
-<div class="container-fluid">
-    <nav class="navbar navbar-dark navbar-fixed-top">
-        <span class="navbar-brand"><span
-                class="hidden-sm-up">Darth CAV</span></span>
-        <button class="navbar-toggler pull-right hidden-sm-up" type="button"
-                data-toggle="collapse" data-target="#cnavbar">
-            &#9776;
-        </button>
-        <div class="container collapse navbar-toggleable-xs" id="cnavbar">
-            <ul class="nav navbar-nav nav-pills">
-                <li class="nav-item {% if page.permalink == '/index.html' %}{{ 'active' }}{% endif %}">
-                    <a class="nav-link" href="/">Home</a>
-                </li>
-                <!--li class="nav-item">
-                    <a class="nav-link" href="/projects/index.html">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/pubs/index.html">Publications</a>
-                </li-->
-                <li class="nav-item {% if page.permalink == '/blog.html' %}{{ 'active' }}{% endif %}">
-                    <a class="nav-link" href="/blog.html">Blog</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</div>
+<nav class="navbar navbar-full navbar-fixed-top navbar-dark bg-primary">
+    <div class="hidden-sm-up">
+        <span class="navbar-brand">{{ site.title }}</span>
+        <button class="navbar-toggler pull-xs-right" type="button"
+                data-toggle="collapse" data-target="#cnavbar">&#9776;</button>
+    </div>
+    <div class="collapse navbar-toggleable-xs container" id="cnavbar">
+        <ul class="nav navbar-nav">
+            <li class="nav-item {% if page.permalink == '/index.html' %}{{ 'active' }}{% endif %}">
+                <a class="nav-link" href="/">Home</a>
+            </li>
+            <!--li class="nav-item">
+                <a class="nav-link" href="/projects/index.html">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/pubs/index.html">Publications</a>
+            </li-->
+            <li class="nav-item {% if page.permalink == '/blog.html' %}{{ 'active' }}{% endif %}">
+                <a class="nav-link" href="/blog.html">Blog</a>
+            </li>
+        </ul>
+    </div>
+</nav>

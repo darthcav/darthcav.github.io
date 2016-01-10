@@ -9,6 +9,16 @@
     <link rel="alternate" href="/feed.xml" type="application/rss+xml"
           title="{{ site.title }}">
     {% if page.math %}
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        jax: [ "input/TeX", "output/HTML-CSS" ], // "output/SVG"
+        "HTML-CSS": {
+            scale: 100,
+            preferredFont: "STIX",
+            showMathMenu: false
+        }
+    });
+    </script>
     <script type="application/javascript" src="{{ site.scripts.mathjax }}"></script>
     {% endif %}
 </head>

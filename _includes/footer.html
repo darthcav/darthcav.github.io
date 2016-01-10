@@ -1,17 +1,19 @@
-<footer class="container-fluid" role="contentinfo">
-    <address>
-        {{ site.copyright }} &nbsp;|&nbsp;
-        {% if site.github.owner_name %}
-            <a href="{{ site.github.owner_url }}"><span class="fa fa-github"
-               aria-hidden="true" title="{{ site.github.owner_name }} in GitHub"></span>
-            <span class="sr-only">{{ site.github.owner_name }} in GitHub</span></a>
-        {% endif %}
-        {% if site.twitter.user %}
-            <a href="{{ site.twitter.url }}"><span class="fa fa-twitter"
-            aria-hidden="true" title="{{ site.twitter.user }} in Twitter"></span>
-            <span class="sr-only">{{ site.twitter.user }} in Twitter</span></a>
-        {% endif %}
-    </address>
+<footer role="contentinfo">
+    <div class="container-fluid">
+        <address>
+            {{ site.copyright }} &nbsp;|&nbsp;
+            {% if site.github.owner_name %}
+                <a href="{{ site.github.owner_url }}"><span class="fa fa-github"
+                   aria-hidden="true" title="{{ site.github.owner_name }} in GitHub"></span>
+                <span class="sr-only">{{ site.github.owner_name }} in GitHub</span></a>
+            {% endif %}
+            {% if site.twitter.user %}
+                <a href="{{ site.twitter.url }}"><span class="fa fa-twitter"
+                aria-hidden="true" title="{{ site.twitter.user }} in Twitter"></span>
+                <span class="sr-only">{{ site.twitter.user }} in Twitter</span></a>
+            {% endif %}
+        </address>
+    </div>
 </footer>
 <script type="application/javascript" src="{{ site.scripts.ga }}"></script>
 <script type="application/javascript" src="{{ site.scripts.jquery }}"></script>

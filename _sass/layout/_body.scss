@@ -1,4 +1,5 @@
 body {
+    padding-top: round(1.5 * $top-nav-height);
     font-size: $base-font;
     font-weight: $base-font-weight;
     font-style: normal;
