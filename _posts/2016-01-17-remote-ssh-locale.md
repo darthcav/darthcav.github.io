@@ -27,7 +27,7 @@ locale: Cannot set LC_ALL to default locale: No such file or directory
 ~~~
 
 This is due to the fact that you are sending with your
-ssh connection the locale of your local
+`ssh` connection the locale of your local
 machine to the remote server, which is not configured to support your
 local configuration. This error may be quite annoying, because it can
 prevent you from performing remote administration tasks with `aptitude`,
