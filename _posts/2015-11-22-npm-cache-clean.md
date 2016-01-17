@@ -6,7 +6,7 @@ tags:
  - javascript
  - npm
  - node.js
- - package mgment.
+ - package management
 ---
 
 Quite a while ago I realized that in my local development machines and in some continuous integration servers, the available hard disk free space was suspiciously shrinking over time. A quick research showed that directories related to the [**npm**](https://www.npmjs.com/) package manager were guilty.
