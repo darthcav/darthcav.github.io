@@ -12,8 +12,8 @@ Sometimes you buy (or the IT guys of your company give you) a new computer with 
 
 To solve that, simply open a **Console Prompt** and type:
 
-~~~powershell
-c:\> net users Administrator /active:yes
+~~~bat
+net users Administrator /active:yes
 ~~~
 
 <span lang="fr">Et voilà!</span> your Administrator account is there.
