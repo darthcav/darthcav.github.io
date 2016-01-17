@@ -3,8 +3,5 @@
 (function ()
 {
     var nlist = document.querySelectorAll("blockquote");
-    nlist.forEach(function (n)
-    {
-        n.setAttribute("class", "blockquote");
-    });
+    for (var n of nlist) { n.setAttribute("class", "blockquote"); }
 })();

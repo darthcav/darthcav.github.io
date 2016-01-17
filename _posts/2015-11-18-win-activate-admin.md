@@ -13,7 +13,7 @@ Sometimes you buy (or the IT guys of your company give you) a new computer with 
 To solve that, simply open a **Console Prompt** and type:
 
 ~~~bat
-net users Administrator /active:yes
+c:\> net users Administrator /active:yes
 ~~~
 
 <span lang="fr">Et voilà!</span> your Administrator account is there.
