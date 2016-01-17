@@ -2,5 +2,8 @@
 {
     "use strict";
     var nlist = document.querySelectorAll("blockquote");
-    for (var n of nlist) { n.className = blockquote; }
+    Array.from(nlist).forEach(function (n)
+    {
+        n.className = blockquote;
+    });
 })();
