@@ -13,7 +13,7 @@ Quite a while ago I realized that in my local development machines and in some c
 
 Just reviewing the **npm** documentation, you stumble first on the [`npm-cache`](https://docs.npmjs.com/cli/cache) command. Thus executing:
 
-~~~bash
+~~~console
 $ npm cache clean
 ~~~
 
@@ -28,7 +28,7 @@ According to the [`npm-folders` documentation](https://docs.npmjs.com/files/fold
 
 However (at the moment of writing this post), it does not seem that this deletion happens. A temporary workaround is to run the command:
 
-~~~bash
+~~~console
 $ sudo rm -rf $TMPDIR/npm-*
 ~~~
 
