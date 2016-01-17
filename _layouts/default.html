@@ -9,9 +9,18 @@
                 <main class="col-xs-12 col-md-8" role="main">
                     {{ content }}
                 </main>
-                {% include aside.html %}
+                <aside class="col-xs-12 col-md-4 hidden-sm-down" role="complementary">
+                    {% include aside.html %}
+                </aside>
             </div>
         </div>
         {% include footer.html %}
     </body>
 </html>
+        <div class="container">
+            <main id="main" role="main">
+                <section>
+                    <article>
+                        <header role="banner">
+                            <h1><%= header %></h1>
+                        </header>

@@ -10,19 +10,7 @@
                     {{ content }}
                 </main>
                 <aside class="col-xs-12 col-md-3" role="complementary">
-                    <section class="card text-center">
-                        <div class="card-header">
-                            <h3 class="card-title">Tags</h3>
-                        </div>
-                        <div class="card-block">
-                            <div class="card-text">
-                                {% for tag in page.tags %}
-                                    <span class="btn btn-primary
-                                        btn-sm btn-block">{{ tag }}</span>
-                                {% endfor %}
-                            </div>
-                        </div>
-                    </section>
+                    {% include tags.html %}
                 </aside>
             </div>
         </div>
