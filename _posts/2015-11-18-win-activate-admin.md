@@ -12,7 +12,7 @@ Sometimes you buy (or the IT guys of your company give you) a new computer with 
 
 To solve that, simply open a **Console Prompt** and type:
 
-~~~bat
+~~~powershell
 c:\> net users Administrator /active:yes
 ~~~
 
