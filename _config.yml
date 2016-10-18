@@ -9,8 +9,8 @@ author:
   name: Darth CAV
 
 ##### GitHub configuration
-markdown: redcarpet # redcarpet | kramdown
-highlighter: pygments # pygments | (unsupported in GitHub) rouge
+markdown: kramdown
+highlighter: rouge # pygments | (unsupported in GitHub) rouge
 repository: darthcav/darthcav.github.io
 gems:
   - jekyll-feed
@@ -25,12 +25,8 @@ paginate: 10
 permalink: /blog/:year/:month/:day/:title.html
 
 ##### Kramdown configuration
-# kramdown:
-#   input: GFM
-
-##### RedCarpet configuration
-redcarpet:
-  extensions: [ "smart" ]
+kramdown:
+  input: GFM
 
 ##### Twitter configuration
 twitter:
@@ -39,10 +35,10 @@ twitter:
 
 ##### Scripts configuration
 scripts:
-  bootstrap: https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.min.js
+  bootstrap: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js
   ga: https://darthcav.github.io/scripts/ga.js
-  jquery: https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
+  jquery: https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js
   mathjax: https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-  tether: https://cdnjs.cloudflare.com/ajax/libs/tether/1.1.1/js/tether.min.js
+  tether: https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js
   twitter: https://darthcav.github.io/scripts/twitter.js
   customize-md: https://darthcav.github.io/scripts/customize-md.js
